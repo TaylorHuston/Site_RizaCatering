@@ -104,7 +104,7 @@ nav img {
     position: absolute;
     right: 3vw;
     top: 2vw;
-    font-size: 1.7vw;
+    font-size: 2vw;
     color: hsl(337, 66%, 53%);
 }
 
@@ -139,7 +139,6 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: lightgrey;
-
 }
 
 
@@ -181,16 +180,21 @@ span.accent{
     color: hsl(337, 66%, 53%);
 }
 
+img.rizaPic {
+    width: 95vw;
+
+}
+
 #mainContent p {
-    padding: 0 15px;
+    margin: 0 15px;
 }
 
 #mainContent ul {
-    padding: 10px 20px;
+    margin: 10px 20px;
 }
 
 #mainContent ul li {
-    padding: 3px;
+    margin: 6px 0;
 }
 
 footer {

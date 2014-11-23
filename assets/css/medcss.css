@@ -1,6 +1,10 @@
-@media all and (min-width: 700px) {
+@media all and (min-width: 700px) and (orientation: landscape) {
 
- body {
+html {
+    height: 100%;
+}
+    
+body {
     height: 100%;
     
     background-image: url("../img/background.jpg");
@@ -14,7 +18,7 @@
     font-size: 14px;
 }
 
-    
+
 header {
     background-color: hsl(0, 0%, 100%);
     border-bottom: 20px solid hsl(210, 2%, 18%);
@@ -101,40 +105,52 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #FFFFFF;
     color: hsl(338, 66%, 61%);
+    border-bottom: 3px solid hsl(338, 66%, 61%);
+}
+
+nav ul li a.current {
     border-bottom: 3px solid hsl(337, 66%, 53%);
 }
     
 #outerWrapper {
     min-height: 100%;
-/*    height: auto !important;*/
-    height: 100%;
-    min-height: 800px;
     width: 100%;
     min-width: 480px;
-    margin: 0 auto -100px;
+    margin: 0 auto -140px;
 }
     
 #mainContent {
     position: relative;
-    top: 5vh;
+    margin-top: 10px;
     
     width: 75%;
     max-width: 980px;
     
     -webkit-box-shadow: 0 15px 20px hsl(0, 0%, 0%);
-    
-    box-shadow: 0 25px 120px 10px hsl(0, 0%, 0%);
+    box-shadow: 0 15px 20px hsl(0, 0%, 0%);
 }
 
-.push {
-    height: 100px;
+#mainContent p {
+    margin: 15px;
+}
+    
+img.rizaPic {
+    float: right;
+    width: 25vw;
+    max-width: 200px;
+    padding: 0 5px;
+}
+    
+#outerWrapper:after {
+    content: "";
+    display: block;
+    height: 140px;
 }  
 
-    footer {
+footer {
     height: 120px;
-    padding-top: 5px;
+    margin-top: 20px;
     font-size: 12px;
-
 }
 
 #innerFooter {
@@ -144,18 +160,23 @@ nav ul li a:hover {
 }
     
 #contact {
-    display: inline-block;
+    display: block;
     float: left;
-    width: 50%;
+    width: 33%;
     text-align: left;
 }
 
 #copyright {
     display: inline-block;
     float: right;
-    width: 50%;
+    width: 33%;
     text-align: right;
 }
+    
+.fb-like-box {
+    width: 33%;
+}
+
 }
 
 @media all and (min-width: 1200px) {
