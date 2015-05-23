@@ -154,29 +154,31 @@ nav ul li a:hover {
 
     background-color: hsla(0, 0%, 100%, 0.9);
     
-    font-size: 12px;
+    font-size: 2.5vw;
     color: hsl(0, 0%, 30%);
 
 }
+
 h1.pageTitle {
     padding: 10px 0;
     
-    font-size: 25px;    
+    font-size: 5vw;    
     font-family: "sinkin_sans500", sans-serif;
     color: hsl(337, 66%, 53%);
     
 
 }
+
 h2.accent{
     padding: 5px 0;
-    font-size: 18px;
+    font-size: 4vw;
     font-family: "sinkin_sans500", sans-serif;
     color: hsl(337, 66%, 53%);
 }
 
 span.accent{
     font-family: "sinkin_sans500", sans-serif;
-    font-size: 15px;
+    font-size: 4vw;
     color: hsl(337, 66%, 53%);
 }
 
@@ -207,7 +209,6 @@ footer {
     border-top: 20px solid hsl(210, 2%, 18%);;
     
     background-color: hsl(210, 2%, 25%);
-    
 
     color: white;
     font-size: 10px;
@@ -226,5 +227,9 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 

@@ -1,4 +1,4 @@
-@media all and (min-width: 700px) and (orientation: landscape) {
+@media all and (min-width: 700px) {
 
 html {
     height: 100%;
@@ -75,10 +75,12 @@ nav ul li {
     display: inline-block;
     vertical-align: top;
     
+    box-sizing: border-box;
     height: 6vw;
     max-height: 75px;
     width: 18vw;
     max-width: 200px;
+    padding-right: 1px;
     
     text-align: center;
 
@@ -102,14 +104,14 @@ nav ul li a {
     font-size: 1.4vw;
 }
 
-nav ul li a:hover {
-    background-color: #FFFFFF;
-    color: hsl(338, 66%, 61%);
-    border-bottom: 3px solid hsl(338, 66%, 61%);
+nav ul li a.current {
+    border-bottom: 3px solid hsl(338, 66%, 51%);
 }
 
-nav ul li a.current {
-    border-bottom: 3px solid hsl(337, 66%, 53%);
+nav ul li a:hover {
+    background-color: hsl(338, 66%, 51%);
+    color: #fff;
+    border-bottom: 3px solid hsl(338, 66%, 61%);
 }
     
 #outerWrapper {
@@ -125,6 +127,9 @@ nav ul li a.current {
     
     width: 75%;
     max-width: 980px;
+    min-height: 300px;
+
+    font-size: 12px;
     
     -webkit-box-shadow: 0 15px 20px hsl(0, 0%, 0%);
     box-shadow: 0 15px 20px hsl(0, 0%, 0%);
@@ -133,6 +138,19 @@ nav ul li a.current {
 #mainContent p {
     margin: 15px;
 }
+
+h1.pageTitle {
+    font-size: 25px;    
+}
+
+h2.accent{
+    font-size: 15px
+}
+
+span.accent{
+    font-size: 13px;
+}
+
     
 img.rizaPic {
     float: right;
