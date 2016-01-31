@@ -1,0 +1,21 @@
+{
+  "name": "RizaCatering",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Taylor Huston <taylor.a.huston@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/TaylorHuston/Site_RizaCatering",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
