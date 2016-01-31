@@ -36,3 +36,4 @@ Icon
 .Trashes
 /node_modules/
 /src/vendor/
+/dist/
