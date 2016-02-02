@@ -3,6 +3,7 @@
   "private": true,
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-file-include": "^0.13.7",
     "gulp-jshint": "^2.0.0",
     "gulp-util": "^3.0.7",
     "jshint-stylish": "^2.1.0"

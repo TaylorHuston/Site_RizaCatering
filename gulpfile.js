@@ -12,5 +12,3 @@ gulp.task('default', ['copy'], function() {
 gulp.task('copy', function() {
   gulp.src('src/*.html').pipe(gulp.dest('dist'));
 });
-
-gulp.watch
